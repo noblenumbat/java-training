@@ -1,0 +1,43 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/jonat/eclipse-workspace/practices/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/jonat/eclipse-workspace/practices/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'practices 1.0.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'practices 1.0.0-SNAPSHOT API'
+practices
+C:\Users\jonat\eclipse-workspace\practices\src\main\java = 1750118794983
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\allclasses-index.html = 1750119593744
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\allpackages-index.html = 1750119593753
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\copy.svg = 1750119593916
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\element-list = 1750119593092
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\help-doc.html = 1750119593888
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\index-all.html = 1750119593861
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\index.html = 1750119593868
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\link.svg = 1750119593919
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\member-search-index.js = 1750119593782
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\module-search-index.js = 1750119593760
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\overview-tree.html = 1750119593645
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\package-search-index.js = 1750119593762
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\script.js = 1750119593914
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\search-page.js = 1750119593928
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\search.html = 1750119593865
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\search.js = 1750119593925
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\stylesheet.css = 1750119593909
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\tag-search-index.js = 1750119593784
+C:\Users\jonat\eclipse-workspace\practices\target\site\apidocs\type-search-index.js = 1750119593764
