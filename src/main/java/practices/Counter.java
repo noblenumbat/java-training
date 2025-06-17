@@ -2,7 +2,7 @@ package practices;
 
 /**
  * Esta clase representa un contador simple.
- * @author Jonathan Castillo 
+ * @author Castle
  */
 
 public class Counter{
