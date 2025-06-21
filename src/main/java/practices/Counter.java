@@ -1,19 +1,30 @@
 package practices;
 
+/*
+ * INSTANCIAS:
+ * 	TransaccionesDia
+ * 	BotonSimulado
+ * 	LoginSimulator
+ *  VisitasPagina
+ */
+
 /**
  * Esta clase representa un contador simple.
  * @author Castle
  */
 
 public class Counter{
-	private Integer count;
+	private int count;
+	private int maxLimit;
 	
 	/**
 	 * Inicializa el contador en cero.
 	 */
-	public Counter() {
-		this.count = 0; 
+	public Counter(int maxLimit) {
+		this.count = 0;
+		this.maxLimit = maxLimit;
 	}
+	
 	/**
 	 * Retorna el valor actual del contador.
 	 * @return el valor actual
@@ -24,13 +35,21 @@ public class Counter{
 	/**
 	 * Incrementa el contador en una unidad.
 	 */
-	public void incrementCount() {
-		this.count = this.count + 1;
+	public boolean incrementCount() {
+		if(count < maxLimit) {
+			count++;
+			return true; // Incremento exitoso
+		} else {
+			System.out.println("¡Limite de transacciones alcanzado! Máximo permitido: " + maxLimit);
+			return false; // Incremento fallido
+		}
+		
 	}
 	/**
 	 * Reinicia el contador a cero.
 	 */
 	public void reset() {
-		this.count = 0;
+		count = 0;
 	}
+	
 }
