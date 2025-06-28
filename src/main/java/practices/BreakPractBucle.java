@@ -3,7 +3,7 @@ package practices;
 public class BreakPractBucle{
 	public static void main(String[] args) {
 		int[] numeros = {2,4,6,8,10,12,14};
-		int buscar = 10;
+		int buscar = 12;
 		
 		for(int num : numeros) {
 			if (num == buscar) {
