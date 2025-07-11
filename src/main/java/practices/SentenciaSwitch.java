@@ -20,7 +20,7 @@ import java.util.InputMismatchException;
 //	}
 //}
 
-// Switch moderno (Solo para java 14)
+// Switch moderno (Desde java 14)
 //public class SentenciaSwitch {
 //	public static void main (String[] args) {
 //		String color = "amarillo";
@@ -30,7 +30,7 @@ import java.util.InputMismatchException;
 //			case "amarillo" -> "Cambio de luz";
 //			default -> "Parar";
 //		};
-//		System.out.println("Puede" + accion);
+//		System.out.println("Semáforo: " + accion);
 //	}
 //}
 

@@ -5,7 +5,7 @@ public class OutputsPract {
 		double x = 10000.00 / 3.0;
 		
 		System.out.println(x); // 3333.3333333333335
-		System.out.printf("%8.2f", x); //  3333,33
+		System.out.printf("%8.2f", x); //  3333,33 anchura de campo de ocho caracteres y una precisión de dos cifras
 		
 		String name = "Joe";
 		int age = 20;

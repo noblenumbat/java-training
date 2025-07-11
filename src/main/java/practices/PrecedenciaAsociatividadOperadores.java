@@ -59,7 +59,7 @@ package practices;
 //		int n = 8; // 1000
 //		int derecha = n >> 1; // 0100
 //		int sinSigno = n >>> 1;
-//		int izquierda = n << 1; // 10000
+//		int izquierda = n << 4; // 10000000
 //		
 //		System.out.println(izquierda); 
 //	}
@@ -88,7 +88,7 @@ package practices;
 //}
 
 // &
-// AND bit a bit
+// AND bit a bit : It's true when both operators are 1
 //public class PrecedenciaAsociatividadOperadores {
 //	public static void main (String[] args) {
 //		int r = 5 & 3; //  0101 & 0011 = 0001 -> 1
@@ -98,17 +98,19 @@ package practices;
 //}
 
 // ^
-// XOR bit a bit
+// XOR bit a bit : It's true when both operators are diferent
 //public class PrecedenciaAsociatividadOperadores {
 //	public static void main (String[] args) {
-//		int r = 5 ^ 3; //  0101 & 0011 = 0110 -> 6
+//		int r = 5 ^ 3; //  0101 & 
+//		               //  0011 
+//		               //= 0110 -> 6
 //		
 //		System.out.println(r);
 //	}
 //}
 
 // |
-// OR bit a bit
+// OR bit a bit : It's true when one of the two operators is 1 
 //public class PrecedenciaAsociatividadOperadores {
 //	public static void main (String[] args) {
 //		int r = 5 | 3; //  0101 & 0011 = 0111 -> 7

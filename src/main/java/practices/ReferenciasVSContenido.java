@@ -8,16 +8,16 @@ Comparación			¿Qué compara?				Resultado
 
 // Ejemplo con referencias
 
-/*
-public class ReferenciasVSContenido {
-	public static void main (String args []) {
-		String a = "Bye";
-		String b = "Bye";
-		
-		System.out.println(a == b); // true
-	}
-}
-*/
+
+//public class ReferenciasVSContenido {
+//	public static void main (String args []) {
+//		String a = "Bye";
+//		String b = "Bye";
+//		
+//		System.out.println(a == b); // true
+//	}
+//}
+
 
 // Ejemplo con contenido: para comparar contenido usamos a.equals(b)
 

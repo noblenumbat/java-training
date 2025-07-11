@@ -37,11 +37,11 @@ import java.util.List; // Nombres que empiezan por L
 //		double num2;
 //		
 //		num2 = (int) num1;
-//		
-//		
+//			
 //		System.out.println(num2); // 3.0
 //	}
-//}
+//}	
+
 
 // Nombres que empiezan por L
 public class Stream{

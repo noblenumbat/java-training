@@ -16,9 +16,9 @@ public class sortedPrac{
 				new Empleado("Carlos", 2500)
 		);
 		
-		List<Empleado> ordenados = empleados.stream() // Get the data from employees List
-				//.sorted(Comparator.comparing(Empleado::salario))
-				.sorted(Comparator.comparing(Empleado::salario).reversed()) // Desc
+		List<Empleado> ordenados = empleados.stream() // Get the data from the employees List
+				.sorted(Comparator.comparing(Empleado::salario))
+				//.sorted(Comparator.comparing(Empleado::salario).reversed()) // Desc
 				.collect(Collectors.toList());
 
 		ordenados.forEach(System.out::println); // It take each element and print it on the console

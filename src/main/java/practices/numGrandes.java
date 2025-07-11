@@ -229,7 +229,7 @@ import java.util.Scanner;
 // NIVEL 4: Reto avanzado
 // Conversión de moneda
 
-// Simula una aplicación bancaria que convierte euros a dólares usandouna tasa decimal muy precisa.
+// Simula una aplicación bancaria que convierte euros a dólares usando una tasa decimal muy precisa.
 // Ejemplo: 1 euro = 1.087654 dólares.
 // Calcula cuántos dólares recibirías por 2,345.89 euros. Usa BigDecimal y RoundigMode.HALF_UP.
 

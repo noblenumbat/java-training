@@ -142,7 +142,7 @@ public class OperadoresRelacionalesLogicos {
 //	}
 //}
 
-// ^ XOR is true when both value are diferents
+// ^ XOR is true when both values aren't equals
 // XOR lógico con booleanos
 //public class OperadoresRelacionalesLogicos {
 //	public static void main (String[] args) {
@@ -198,15 +198,15 @@ public class OperadoresRelacionalesLogicos {
 //}
 
 // ? operador ternario
-//public class OperadoresRelacionalesLogicos {
-//	public static void main (String[] args) {
-//		int x = 10;
-//		int y = 7;
-//		int z = x < y ? x : y;
-//		
-//		System.out.println(z); // 7
-//	}
-//}
+public class OperadoresRelacionalesLogicos {
+	public static void main (String[] args) {
+		int x = 10;
+		int y = 7;
+		int z = x < y ? x : y;
+		
+		System.out.println(z); // 7
+	}
+}
 
 
 

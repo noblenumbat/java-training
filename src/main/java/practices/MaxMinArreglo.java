@@ -23,6 +23,6 @@ public class MaxMinArreglo{
 		int min = Arrays.stream(numeros).min().getAsInt(); 	
 		
 		System.out.println("Valor máximo: " + max);
-		System.err.println("Valor mínimo: " + min);
+		System.out.println("Valor mínimo: " + min);
 	}
 }
