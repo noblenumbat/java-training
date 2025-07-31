@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TryCatchPracNumeroPositivo{
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int numero = -1;
+		int numero = 0;
 		
 		while(numero <=0) {
 			try {

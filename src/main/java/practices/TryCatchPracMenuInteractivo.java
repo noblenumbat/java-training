@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TryCatchPracMenuInteractivo{
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int opcion = -1;
+		int opcion;
 		
 		while(true) {
 			System.out.println("\nMENÚ:");

@@ -1,7 +1,6 @@
 package practices;
 
 // throws InterruptedException puede lanzar una excepción si el hilo es interrumpido
-// porque se estamos usando .join()
 // Runnable tarea es una tarea anónima
 // .join() esperar ejecución de hilos antes de imprimir
 
