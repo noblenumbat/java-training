@@ -54,6 +54,10 @@ public class Employee {
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(nombre, sueldo, fechaContrato);
+		return Objects.hash(this.nombre, this.sueldo, this.fechaContrato);
+	}
+	@Override
+	public String toString() {
+		return getClass().getName() + "[nombre=" + this.nombre + ", sueldo=" + this.sueldo + ", fechaContrato=" + this.fechaContrato + "]";
 	}
 }
