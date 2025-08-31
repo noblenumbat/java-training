@@ -1,4 +1,5 @@
 // Permite clonar administradores y extiende de CloneableEmployee
+// Archivo de prueba TestCloneCloneableManager
 
 package poo;
 
@@ -38,6 +39,6 @@ public class CloneableManager extends CloneableEmployee implements Cloneable {
 	}
 	@Override
 	public CloneableManager clone() throws CloneNotSupportedException {
-		return (CloneableManager) super.clone(); // Pendiente analizar esta linea
+		return (CloneableManager) super.clone(); // super.clone llama al método clone de CloneableEmployee que contiene los campos de esa clase
 	}
 }
