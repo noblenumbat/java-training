@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"poo"},{"l":"poo.equals_practices"},{"l":"poo.exceptions"},{"l":"practices"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"poo"},{"l":"poo.clases_internas"},{"l":"poo.equals_practices"},{"l":"poo.exceptions"},{"l":"practices"}];updateSearchResults();
